@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div *ngFor="let user of users$" style="text-align:center">
+  <h2>
+     {{ user.id}} - {{user.name}}
+  </h2>
+  <p>{{user.email}}</p>
+</div>
+
+
+<router-outlet></router-outlet>
+ 
